@@ -1,0 +1,60 @@
+*{
+	box-sizing: border-box;
+}
+
+header{
+	background: #ffffff;
+	width: 100%;
+	overflow: auto;
+	border: solid;
+	margin-bottom: 40px;
+}
+
+.wrapper{
+	overflow: auto;
+	max-width: 960px;
+	margin: 0 auto;
+	border: solid;
+}
+
+.main_title{
+	height: 100px;
+	float: left;
+	border: solid;
+}
+
+.navigation{
+	float: right;
+	border: solid;
+}
+
+.main_content{
+	clear: both;
+	max-width: 960px;
+	margin: 0 auto;
+	border: solid;
+	overflow: auto;
+	margin-bottom: 40px;
+}
+
+.main_section{
+	float: left;
+	width: 650px;
+	border: solid;
+	background: #999;
+}
+.sidebar{
+	float: right;
+	width: 270px;
+	border: solid;
+}
+
+footer{
+	clear: both;
+	border: solid;
+}
+
+img{
+	width: 20px;
+	height: 20px;
+}
