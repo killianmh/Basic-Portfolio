@@ -1,0 +1,53 @@
+table{
+	margin-top: 40px;
+	width: 100%;
+}
+
+td{
+	position: relative;
+}
+
+.img_left{
+	position: relative;
+	float: left;
+	width: 280px;
+	height: auto;
+	padding-bottom: 55px;
+}
+
+.img_right{
+	position: relative;
+	float: right;
+	width: 280px;
+	height: auto;
+	padding-bottom: 55px;
+}
+
+.banner_left{
+	position: absolute;
+	top: 150px;
+	width: 280px;
+	height: 50px;
+	background-color: #4aaaa5;
+	display: table;
+}
+
+.banner_right{
+	position: absolute;
+	top: 150px;
+	right: 0px;
+	width: 280px;
+	height: 50px;
+	background-color: #4aaaa5;
+	display: table;
+}
+
+.banner_text{
+	position: relative;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #ffffff;
+	font-size: 20px;
+}

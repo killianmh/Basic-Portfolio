@@ -1,60 +1,261 @@
-*{
-	box-sizing: border-box;
+
+body{
+	background-image: url("../images/dust_scratches.png");
 }
 
 header{
-	background: #ffffff;
+	background-color: #ffffff;
 	width: 100%;
 	overflow: auto;
-	border: solid;
+	border-bottom: 2px solid #cccccc;
+	margin-top:0px;
 	margin-bottom: 40px;
+	padding: 0px;
+	height: 90px;
+	top: 0px;
+
 }
 
 .wrapper{
 	overflow: auto;
 	max-width: 960px;
 	margin: 0 auto;
-	border: solid;
+	padding: 0px;
+	height: 90px;
+	top: 0px;
 }
 
 .main_title{
-	height: 100px;
+	height: 90px;
 	float: left;
-	border: solid;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	overflow: auto;
+	display: table;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
 }
 
+h1{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	font-weight: bold;
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 25px;
+	padding-right: 25px;
+}
 .navigation{
 	float: right;
-	border: solid;
+	height: 90px;
+	display: table;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
 }
+
+
+.nav_list{
+	list-style-type: none;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+
+
+}
+
+.nav_link{
+	float:left;
+	border-right: 1px solid #777777;
+	height: 18px;
+}
+
+.nav_link:last-child{
+	border-right: none;
+}
+
+.nav_a{
+	display: block;
+	text-decoration: none;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.nav_link:last-child{
+	padding-right: 0px;
+}
+
 
 .main_content{
 	clear: both;
 	max-width: 960px;
 	margin: 0 auto;
-	border: solid;
 	overflow: auto;
 	margin-bottom: 40px;
+	background-color: transparent;
+	
+
 }
 
 .main_section{
 	float: left;
 	width: 650px;
-	border: solid;
-	background: #999;
-}
-.sidebar{
-	float: right;
-	width: 270px;
-	border: solid;
+	border: solid #dddddd;
+	background-color: #ffffff;
+	
 }
 
-footer{
-	clear: both;
-	border: solid;
+.main_section_wrapper{
+	width: 600px;
+	height: 80px;
+	border-bottom: 2px solid #cccccc;
+	margin: 0 auto;
+	display: table;
+
+}
+
+.main_section_wrapper_2{
+	float: left;
+	height: 80px;
+	display: table;
+}
+
+.main_section_heading{
+	display: table-cell;
+	vertical-align: middle;	
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 28px;
+	font-weight: bold;
+	color: #4aaaa5;
+}
+.text_body_wrapper{
+	width: 600px;
+	margin:0 auto;
+	clear:both;
+	margin-top: 20px;
+}
+
+.profile_pic{
+	float: left;
+	width: 160px;
+	height: auto;
+	margin-top: 6px;
+	margin-right: 18px;
+	margin-bottom: 18px;
+}	
+
+p{
+	font-size: 16px;
+	line-height: 28px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	margin-bottom: 20px;
+}
+
+.sidebar{
+	background-color: #ffffff;
+	float: right;
+	width: 270px;
+	border: solid #dddddd;
+	overflow: hidden;
+}
+
+.sidebar_div{
+	width: 210px;
+	height: 70px;
+	margin: 0 auto;
+	border-bottom: 1px solid #cccccc;
+	display: table;
+}
+
+.sidebar_title{
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;	
+}
+
+.table{
+	display: table;
+	margin: 20px auto;
+	height: 80px;
+	
+}
+
+.sidebar_nav{
+	list-style: none;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0px;
+	margin: 0px;
+	height: 80px;
+}
+
+.sidebar_nav li{
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	height: 80px;
+
+}
+
+#sidebar_middle_icon{
+	margin-right: 8px;
+	margin-left: 6px;
 }
 
 img{
-	width: 20px;
-	height: 20px;
+	height: 70px;
+	width: auto;
+	padding: 0px;
+	margin: 0px;
+}
+
+#stack_icon{
+	padding-top: 5px;
+	height: 62px;
+	width: auto;
+}
+
+footer{
+	width: 100%;
+	height: 80px;
+	clear: both;
+	border-top: 6px solid #4aaaa5;
+	background-color: #666666;
+	display: table;
+	
+}
+
+.footer_wrapper{
+	height: 80px;
+	display: table-cell;
+	vertical-align: middle;	
+}
+
+.footer_text{
+	color: #ffffff;
+	font-size: 10px;
+	margin: 0px;
+	text-align: center;
+
+}
+
+.link{
+	font-style: italic;
+	color: #4aaaa5;
+}
+
+.f
+
+.sticky_footer{
+	min-height: 100%;
+	margin-bottom:-80px;
 }
